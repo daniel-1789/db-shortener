@@ -1,17 +1,19 @@
-Prompt
+# Prompt
 Build a minimal in-memory URL shortener.
 
-Implement two functions:
-
+# Implement two functions:
+```
 shorten_url(long_url: str, user_id: str) -> str
 
 resolve_url(short_url: str) -> Optional[str]
+```
 
-Requirements:
+
+# Requirements:
 
 A user can shorten any URL.
 
-You should return a shortened version like "http://short.ly/abc123".
+You should return a shortened version like `http://short.ly/abc123`
 
 You can generate the short code however you like.
 
